@@ -1,0 +1,33 @@
+/*Opdracht 6*/
+/*eerst de hoefding stijlen*/
+h1,h2,h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 1.8em;
+}
+h2{
+    font-size: 1.5em;
+}
+h3{
+    font-size: 1.4em;
+}
+/*dan de stijlen va, de paragrafen*/
+p{
+    font-family: 'Times New Roman',serif;
+    font-size: 1.2em;
+}
+
+/*kleurtjes*/
+.paragraaf-rood {
+    color: red;
+}
+
+.paragraaf-groen {
+    color: green;
+}
+
+.paragraaf-blauw {
+    color: blue;
+}
