@@ -1,0 +1,79 @@
+
+
+body{font-family: 'Helvetica', 'Arial', sans-serif;
+    margin:0;
+    padding:30px;
+    background-color: #f0f0f0;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px
+}
+header{
+    background-color:#2B2D42;
+    padding: 30px;
+
+    color:#EDF2F4;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    a{
+        color: #EF233C;
+
+    }
+    margin-bottom: 10px;
+}
+/*Lettergrootte h1: 80px
+                      Lettergrootte h2: 40px*/
+
+header h1{
+    font-size:80px;
+    margin:0;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+header h2{
+    font-size:40px;
+    margin: 10px 0;
+    font-weight: normal;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+header p{
+    font-size:0.9em;
+line-height: 1.6;
+    max-width: 2000px;
+    margin: 0 auto;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: #8D99AE;
+}
+
+.education{
+    background-color: #8D99AE;
+    color: black;
+    padding: 30px;
+    margin: 20px 0;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+.education h1{
+    font-size:1.8em;
+    margin-top: 0;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+.education p{
+    font-size: 0.9em;
+    margin: 5px 0;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+footer{
+    background-color: #2B2D42;
+    color:#8D99AE;
+    padding: 30px;
+    margin-top: 10px;
+    a{
+       color: #EF233C;
+    }
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+
+
