@@ -1,0 +1,14 @@
+
+a {
+    display: inline-block;
+    padding-left: 24px;
+    background-image: url("sign-right-icon.png");
+    img{
+        width: 20px; height: 20px;
+    }
+    background-repeat: no-repeat;
+ background-position: right;
+    text-decoration: none;
+    color: darkblue;
+
+}
