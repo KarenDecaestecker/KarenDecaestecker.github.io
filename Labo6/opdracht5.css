@@ -1,7 +1,7 @@
 
 a {
     display: inline-block;
-    padding-left: 30px; /* Increase the padding to add space between the text and the icon */
+    padding-left: 30px;
     background-image: url("sign-right-icon.png");
     background-repeat: no-repeat;
     background-position: left center;
