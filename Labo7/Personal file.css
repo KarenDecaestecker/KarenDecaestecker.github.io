@@ -1,0 +1,61 @@
+h1{
+    color: black;
+    font-family: Dubai;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2{
+    font-family: Dubai;
+    text-align: center;
+    text-decoration: underline;
+    color: palevioletred;
+
+}
+body {
+    background-color: lavenderblush;
+}
+.container{
+   display: inline-block;
+    margin-left: 100px;
+}
+article1{
+
+    margin: 30px;
+    background-color: lightpink;
+    width: 430px;
+    display: inline-block;
+    a{
+        display: inline-block;
+        padding-left: 30px;
+        background-image: url("https://www.pngwing.com/en/free-png-xlica");
+        background-size: 20px 20px;
+        background-repeat: no-repeat;
+        background-position: left center;
+
+    }
+}
+article2{
+
+    margin: 30px;
+    background-color: lightpink;
+    width: 430px;
+    display: inline-block;
+}
+article{
+
+    margin: 30px;
+    background-color: lightpink;
+    width: 430px;
+    display: inline-block;
+    ul>
+}
+a{
+    color: black;
+}
+.stippeltjesrand {
+    border: 1px dotted lavenderblush;
+    padding: 5px;
+}
+
+}
