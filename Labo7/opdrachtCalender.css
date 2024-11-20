@@ -1,9 +1,11 @@
-body {
+.body {
     border-collapse: collapse;
     width: 100%;
     margin: 20px auto;
     font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid #000;
+    border: 1px solid ;
+    display: flex;
+    background-color:#f0f8ff ;
 }
  caption{
     font-size: 1.5em;color: rgb(200,190,240);
@@ -18,24 +20,24 @@ body {
     color: rgb(200,190,240);
     padding: 10px;
 }
- td {
+ .calender .previous{
     padding: 10px;
     text-align: center;
     width: 14%;
     border: 1px solid #dddddd;
 
 }
- td:first-child,
- td:last-child {
+td:first-child,
+td:last-child {
     background-color: rgb(255, 220, 220);
 }
-.calender .previous,
-.calender .next {
+.calender.previous,
+.calender .next{
     color: gray;
     background-color: rgb(250,120,120);
 }
 
-.calender .holiday {
+.calender .previousmonth .holiday {
     background-color: rgb(250,120,120);
     color: white;
     font-weight: bold;
