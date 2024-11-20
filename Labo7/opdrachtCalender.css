@@ -1,0 +1,42 @@
+table.calender {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #000;
+}
+table.calender caption{
+    font-size: 1.5em;color: rgb(200,190,240);
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    text-align: center;
+
+}
+table.calender th {
+    background-color: rgb(35, 37, 70);
+    color: rgb(200,190,240);
+    padding: 10px;
+}
+table.calender td {
+    padding: 10px;
+    text-align: center;
+    width: 14%;
+    border: 1px solid #dddddd;
+
+}
+table.calender td:first-child,
+table.calender td:last-child {
+    background-color: rgb(255, 220, 220);
+}
+table.calender.previous,
+table.calender.next {
+    color: gray;
+    background-color: rgb(250,120,120);
+}
+
+holiday.calender{
+    background-color: rgb(250,120,120);
+    color: white;
+    font-weight: bold;
+}
