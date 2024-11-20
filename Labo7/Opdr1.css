@@ -1,0 +1,41 @@
+body{
+    font-family: Verdana, sans-serif;
+    font-size: 0.8em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+body>section>header{
+    height: 200px;
+    background-image:url("https://hydworkshop.wordpress.com/wp-content/uploads/2011/11/cropped-set5-header-original.jpg");
+    background-size: cover;
+}
+body>section>header>h1{
+    font-weight: bold;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin: 10px;
+}
+article{
+    padding: 5px;
+    margin: 5px;
+    background-color: #eeeeee;
+}
+nav{
+   a{color: lawngreen;}
+    background-color: #333333;
+    text-decoration: none;
+}
+article h1{
+    font-size: 24px;
+    color: #333333;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+article footer{
+    color: dodgerblue;
+    text-underline-mode: under;
+}
+
+
