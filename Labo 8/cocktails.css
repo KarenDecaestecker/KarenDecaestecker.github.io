@@ -1,0 +1,53 @@
+header{
+    text-align: center;
+}
+section>article>{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: red;
+    padding: 30px;
+    height: auto;
+    width:70%;
+    text-align: left;
+    display: inline-block;
+    float: left;
+}
+article{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    padding: 30px;
+    width: 25%;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+}
+section{
+    clear: both;
+}
+article>p{
+    text-align: center;
+}
+article>h1{
+    text-align: center;
+    background-image:url('Images/cocktail.gif');
+    background-repeat: repeat-x;
+
+}
+section>article>h1{
+    text-align: right;
+    color: #007e7e;
+    font-size: 150%;
+
+}
+section>article>h2{
+    text-align: left;
+    color: #007e7e;
+    font-size: 130%;
+}
+article>h2{
+    color: plum;
+    text-align: center;
+
+}
+
