@@ -37,7 +37,7 @@ td:last-child {
     background-color: rgb(250,120,120);
 }
 
-.calender .previousmonth .holiday {
+.calender .holiday {
     background-color: rgb(250,120,120);
     color: white;
     font-weight: bold;
