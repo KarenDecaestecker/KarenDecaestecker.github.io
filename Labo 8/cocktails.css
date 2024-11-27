@@ -1,53 +1,69 @@
-header{
+body{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    width: 95%;
     text-align: center;
 }
-section>article>{
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: red;
-    padding: 30px;
-    height: auto;
-    width:70%;
-    text-align: left;
-    display: inline-block;
-    float: left;
-}
-article{
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: white;
-    padding: 30px;
+
+
+#elixer{
     width: 25%;
-    text-align: left;
-    display: inline-block;
-    vertical-align: top;
-}
-section{
-    clear: both;
-}
-article>p{
+    float: right;
+    border: 1px solid #007e7e;
+    padding: 2%;
+    box-sizing: border-box;
     text-align: center;
-}
-article>h1{
-    text-align: center;
-    background-image:url('Images/cocktail.gif');
+    background: url("Labo 8/Images/cocktail.gif");
+
     background-repeat: repeat-x;
 
 }
-section>article>h1{
-    text-align: right;
+#elixer h1{
+    color:black;
+    text-align: center;
+    background-image:url('Images/cocktail.gif');
+    background-repeat: repeat-x;
+}
+#elixer h2{
+    color: #cc668b;
+}
+a hover{
+    color: saddlebrown;
+}
+#content{
+    float: left;
+    width: 70%;
+}
+h1{
     color: #007e7e;
     font-size: 150%;
-
 }
-section>article>h2{
-    text-align: left;
+h2{
     color: #007e7e;
     font-size: 130%;
 }
-article>h2{
-    color: plum;
-    text-align: center;
 
+#guarantee{
+    margin: 30px;
+    padding: 20px;
+    color: #444444;
+    background-color: rgb(140, 182, 182);
+
+    width: 60%;
+    background-image: url("Labo 8/Images/background.gif");
+    background-repeat: no-repeat;
+    float: left;
 }
-
+footer{
+    font-size: 0.6em;
+}
+.cursief{
+    font-style: italic;
+}
+.vet{
+    font-weight: bold;
+}
+#music{
+    text-align: left;
+    width: 70%;
+}
