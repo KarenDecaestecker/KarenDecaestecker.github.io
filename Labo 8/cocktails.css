@@ -27,12 +27,14 @@ body{
 #elixer h2{
     color: #cc668b;
 }
-a hover{
+a:hover{
     color: saddlebrown;
+
 }
 #content{
     float: left;
     width: 70%;
+    text-align: center;
 }
 h1{
     color: #007e7e;
@@ -48,6 +50,7 @@ h2{
     padding: 20px;
     color: #444444;
     background-color: rgb(140, 182, 182);
+    border-style: dotted ;color: white;
 
     width: 60%;
     background-image: url("Labo 8/Images/background.gif");
