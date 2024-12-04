@@ -1,0 +1,10 @@
+section>article>{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: red;
+    padding: 30px;
+    height: auto;
+    width:70%;
+    text-align: left;
+    display: inline-block;
+    float: left;
