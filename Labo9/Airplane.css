@@ -1,0 +1,157 @@
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333333;
+    padding: 20px;
+    margin: 0;
+
+}
+#header{
+    height: 200px;
+    background-image: url("Images/bgsky3.jpg");
+    background-repeat: no-repeat;
+    float: left;
+    position: relative;
+    text-align: center;
+    color: #00008b;
+    line-height: 1.5;
+    background-size: cover;
+    width: 100%;
+}
+#header p:first-of-type {
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0;
+}
+#header p:last-of-type{
+    font-size: 240%;
+    font-weight: bold;
+    margin: 0;
+}
+#header img{
+    position: absolute;
+    bottom: 60px;
+    right: 60px;
+    z-index: 10;
+    width: auto;
+    height: auto;
+    max-height: 120px;
+}
+
+#news{
+    float: right;
+    width: 25%;
+    background-color: #dddddd;
+    border: 1px solid #999999;
+    box-sizing:border-box ;
+    padding: 10px;
+}
+#news p{
+background-color: #00008b;
+    color: #666666;
+    font-size:1.2em;
+    padding: 10px 0;
+}
+#news h3 {
+    color: white;
+    background-color: #66666;
+    text-align: center;
+    font-size: 120%;
+    margin: 0;
+    padding: 10px 0;
+}
+
+#logo img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+
+#introduction{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    /*box-sizing: border-box;*/
+}
+    #introduction p{
+    text-align: justify}
+    #introduction span{
+        color: blue;
+        font-weight: bold;
+        font-style: italic;
+    }
+}
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #999999;
+}
+
+#gallery img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
+    background-color: #999999;
+    box-sizing: border-box;
+}
+.gallery.foto{
+    width: 180px;
+    height: 180px;
+    background-color: #999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px dashed white;
+}
+.foto img{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+div:nth-of-type(4){
+    clear: both;
+    background-color: #666666;
+    color: white;
+    line-height: 2em;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+div:nth-of-type(4) ul{
+    padding:0;
+    list-style: none;
+}
+div:nth-of-type(4) ul li {
+    margin-bottom: 10px;
+    padding-left: 120px;
+}
+div:nth-of-type(4)ul li a{
+    color: white;
+    text-decoration: none;
+    margin:10px 0;
+}
+div:nth-of-type(4) ul li a:hover{
+    color: red;
+}
+div:last-of-type{
+    text-align: center;
+    background-color: white;
+    color:black;
+    padding: 10px;
+    margin-top: 20px;
+}
