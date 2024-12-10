@@ -1,0 +1,27 @@
+.block{
+    height:100px;
+    margin: 5px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 100px;
+}
+.custom-width{
+    width:15px;
+}
+.custom-middle{
+    width:70px;
+}
+.custom-third-row-first{
+    width: 25%;
+}
+.custom-third-row-middle{
+    width: 60%;
+}
+.custom-third-row-last{
+    width: 15%;
+}
+.row.no-wrap{
+    display: flex;
+    flex-wrap: nowrap;
+}

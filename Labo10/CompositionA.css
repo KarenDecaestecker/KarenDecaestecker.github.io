@@ -1,0 +1,88 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: 50px auto;
+    background-color: white;
+    border:15px solid black;
+
+
+}
+#a{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+#a{
+    border: solid black;
+    border-width: 0 7.5px 15px 0px;
+    min-height: 165px;
+    background:rgb(255, 255, 255);
+    width: 25%;
+
+}
+/*.boxA{
+    width: 25%;
+
+}*/
+#b{
+    position: absolute;
+    top: 30px;
+    left: 210px;
+}
+#b{
+    border: solid black;
+    border-width: 15px 7.5px 7.5px 0px;
+    min-height: 190px;
+    background:rgb(255, 255, 255);
+    width: 25%;
+}
+#b{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#c{
+    border: solid black;
+    border-width:  0 0 7.5px 7.5px;
+    min-height: 355px;
+    background:rgb(220, 40, 26);
+    width: 75%;
+    text-align: center;
+    
+}
+#d{
+    border: solid black;
+    border-width:  7.5px 7.5px 0 0;
+    min-height: 150px;
+    background:rgb(0, 93, 159);
+    width: 25%;
+}
+#e{
+    border: solid black;
+    border-width: 7.5px 7.5px 0 7.5px;
+    min-height: 75px;
+    background:rgb(255, 255, 255);
+    width: 65%;
+}
+#f{
+    border: solid black;
+    border-width:  7.5px 0 12px 7.5px;
+    min-height: 75px;
+    background:rgb(255, 255, 255);
+    width: 10%;
+}
+#g{
+    border: solid black;
+    border-width:  12.5px 0 0 7.5px;
+    min-height: 75px;
+    background:rgb(242, 224, 122);
+    width: 10%
+}
+@media(max-width: 768px) {
+    .mondriaan{
+        width: 90%;
+        height: auto;
+    }
+
+}

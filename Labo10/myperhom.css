@@ -1,0 +1,44 @@
+body{
+    font-family: "Birds of Paradise  Personal use", sans-serif;
+    line-height: 1;
+}
+header{
+    background-color: #cc668b;
+}
+header h1{
+    font-size: 2rem;
+    text-align: center;
+}
+header p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    color: antiquewhite;
+}
+#abouttekstje img{
+    border-radius: 50%;
+    max-width: 100%;
+    margin-bottom:15px;
+}
+#about h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+#projects .card {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+#projects .card img {
+    height: 350px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #cc668b;
+}
+footer p {
+    font-size: 1rem;
+    margin: 0;
+}

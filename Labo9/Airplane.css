@@ -36,8 +36,6 @@ body{
     bottom: 60px;
     right: 60px;
     z-index: 10;
-    width: auto;
-    height: auto;
     max-height: 120px;
 }
 
@@ -45,19 +43,19 @@ body{
     float: right;
     width: 25%;
     background-color: #dddddd;
-    border: 1px solid #999999;
+    border: 1px solid darkblue;
     box-sizing:border-box ;
     padding: 10px;
 }
 #news p{
-background-color: #00008b;
+background-color: lightgray;
     color: #666666;
     font-size:1.2em;
     padding: 10px 0;
 }
 #news h3 {
     color: white;
-    background-color: #66666;
+    background-color: #666666;
     text-align: center;
     font-size: 120%;
     margin: 0;
@@ -76,15 +74,10 @@ background-color: #00008b;
     margin: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     /*box-sizing: border-box;*/
-}
-    #introduction p{
+#introduction p{
     text-align: justify}
-    #introduction span{
-        color: blue;
-        font-weight: bold;
-        font-style: italic;
     }
-}
+
 #gallery{
     display: flex;
     flex-wrap: wrap;
@@ -99,14 +92,6 @@ background-color: #00008b;
     max-height: 100%;
 }
 
-.gallery{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px 0;
-    background-color: #999999;
-    box-sizing: border-box;
-}
 .gallery.foto{
     width: 180px;
     height: 180px;
@@ -118,7 +103,16 @@ background-color: #00008b;
     box-sizing: border-box;
     border: 1px dashed white;
 }
-.foto img{
+    .gallery{
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 20px 0;
+        background-color: #999999;
+        box-sizing: border-box;
+    }
+.gallery.foto img{
     max-width: 100px;
     max-height: 100px;
 }
