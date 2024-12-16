@@ -1,0 +1,23 @@
+.container{
+    background-color: cornflowerblue;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    padding: 20px;
+}
+
+/*.container .block{
+
+    margin:50px;
+    padding:50px;
+    background-color: white;
+    grid-template-columns: auto auto auto;
+    grid-template-rows:auto auto auto ;
+}*/
+
+.container .block{
+    padding:20px;
+    margin:50px;
+    border:1px solid #ccc;
+    background-color: white;
+    }
