@@ -1,0 +1,37 @@
+
+  body {
+      margin: 0;
+      padding: 0;
+      background: lightskyblue;
+      font-family: Chalkboard, sans-serif;
+  }
+
+h1 {text-align: center;}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+
+}
+
+
+  .border {border: 2px solid black;}
+
+  .grey-box {
+      background: grey;
+      width: 100px;
+
+      margin: 10px;
+      padding: 20px;
+      font-size: 2em;}
+section{
+background-color: coral;
+height:500px;
+    /*flex-wrap: wrap;*/
+    display: flex;
+    /*flex-direction: column;
+    flex-direction: row-reverse;*/
+    justify-content: center;
+   /* align-items: flex-end;*/
+    align-items: center;
+}
