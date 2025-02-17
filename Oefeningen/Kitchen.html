@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitchn</title>
+
+    
+    <link rel="stylesheet" href="bootstrap-grid.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #header-logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .header-line {
+            width: 80%;
+            margin: 0 auto;
+            border: none;
+            height: 2px;
+            background-color: darkgrey;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+            border-bottom: 1px solid lightgrey;
+        }
+
+        .navbar span {
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            color: #333;
+            cursor: pointer;
+        }
+
+        #top-section {
+            text-align: center;
+            background-color: #f9f9f9;
+            padding: 50px 20px;
+        }
+
+        #top-section h1 {
+            font-size: 2rem;
+            color: #333;
+            margin: 0;
+        }
+
+        .recipes-section {
+            width: 80%;
+            margin: 40px auto;
+        }
+
+        .recipes-section h2 {
+            font-size: 1.5rem;
+            border-bottom: 2px solid lightgrey;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .recipe-card {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .recipe-card img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .recipe-card div {
+            flex: 1;
+        }
+
+        .recommended-section {
+            width: 80%;
+            margin: 40px auto;
+        }
+
+        .recommended-section h2 {
+            font-size: 1.5rem;
+            border-bottom: 2px solid lightgrey;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+       /* .recommended-images {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }*/
+
+        /*.recommended-images img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .footer div {
+            font-size: 0.9rem;
+        }*/
+    </style>
+    <link rel="stylesheet" href="../Oefeningen%20thuis/k.css">
+</head>
+<body>
+
+<div id="header-logo">
+    <img src="logo.png" alt="Kitchn Logo" height="50">
+</div>
+<hr class="header-line">
+
+<div class="navbar">
+    <span>Recipes</span>
+    <span>Meal Planning</span>
+    <span>Learn</span>
+    <span>Shop</span>
+    <span>People</span>
+    <span>Holiday</span>
+    <span>More</span>
+</div>
+
+<div id="top-section">
+    <h1>Better Food, Better Mood</h1>
+</div>
+
+<div class="recipes-section">
+    <h2>Recipes</h2>
+
+    <div class="recipe-card">
+        <img src="../recipes/bbq.jpeg" alt="Mushroom and Steak">
+        <div>
+            <h3>This One-Pan Mushroom and Steak Recipe Is Calling Your Name</h3>
+            <p>Raise your hand if you're making this for dinner tonight!</p>
+            <p><strong>By Elizabeth Licata</strong> | May 3, 2019</p>
+        </div>
+    </div>
+
+    <div class="recipe-card">
+        <img src="../recipes/burger.jpeg" alt="Veggie Burgers">
+        <div>
+            <h3>Recipe: Walnut & Black Bean Veggie Burgers</h3>
+            <p>The ingredients and technique that ensure success every time.</p>
+            <p><strong>By Kelly Foster</strong> | May 1, 2019</p>
+        </div>
+    </div>
+
+    <div class="recipe-card">
+        <img src="../recipes/mediterranean.png" alt="Mediterranean Meals">
+        <div>
+            <h3>Next Week’s Meal Plan: A Week of Mediterranean Diet Dinners</h3>
+            <p>I want to help you find inspiration and ease some of the pain points that come with getting dinner on the table night after night.</p>
+            <p><strong>By Sheela Prakash</strong> | April 24, 2019</p>
+        </div>
+    </div>
+</div>
+
+<div class="recommended-section">
+    <h2>Recommended for You</h2>
+    <div class="recommended-images">
+        <img src="../recommended/food1.jpg" alt="Food 1">
+        <img src="../recommended/food2.jpg" alt="Food 2">
+        <img src="../recommended/food3.jpg" alt="Food 3">
+        <img src="../recommended/food4.jpg" alt="Food 4">
+        <img src="../recommended/food5.jpg" alt="Food 5">
+        <img src="../recommended/food6.jpg" alt="Food 6">
+        <img src="../recommended/food7.jpg" alt="Food 7">
+        <img src="../recommended/food8.jpg" alt="Food 8">
+        <img src="../recommended/food9.jpg" alt="Food 9">
+    </div>
+</div>
+
+<div class="footer">
+    <div>EAT GOOD, FEEL GOOD</div>
+    <div>Kitchn &copy; 1994-2020</div>
+</div>
+
+</body>
+</html>

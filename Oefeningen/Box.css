@@ -1,0 +1,7 @@
+div{
+    display: block;
+    padding:50px;
+    margin: 100px;
+/* marginaats te hebben tussen je box en je zijkant en paddingsen je border en je element plaats te hebben */
+    width: 300px;
+    border: 1px solid deeppink;}

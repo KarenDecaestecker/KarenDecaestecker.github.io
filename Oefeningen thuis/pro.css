@@ -1,0 +1,35 @@
+
+body{
+    font-family: "Birds of Paradise  Personal use", sans-serif;
+    background-color: darkred;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 80%;
+    text-align: center;
+}
+#title-box{
+    background-color: white;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#movies-box{
+    background-color: white;
+}
+#image-box{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}

@@ -25,3 +25,21 @@
     display: flex;
     flex-wrap: nowrap;
 }
+.navbar{
+    display: flex;
+}
+#left{
+    float: left;
+    width: 50%;
+}
+#right{
+    float: right;
+    background-color: black;
+    color: white;
+    width: 50%;
+}
+
+.footer{
+    padding: 20px;
+    width: 100%;
+}

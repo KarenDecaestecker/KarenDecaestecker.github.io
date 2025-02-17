@@ -1,0 +1,24 @@
+img.logo{
+ width:100px;
+ height:100px;
+}
+
+
+
+h1{
+    font-size:5em;
+    color: #2B2D42;
+    text-align: center;
+    font-family:Arial, sans-serif;
+}
+#image1{
+    height: 300px;
+    background-image: url("d5986b535e2f0172611f5fff9615e7f4.jpg");
+    background-repeat: no-repeat;
+    float: left;
+    position: relative;
+    line-height: 1.5;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}

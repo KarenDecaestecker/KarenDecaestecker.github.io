@@ -1,0 +1,10 @@
+.nav-links {
+    display: flex; /* Enables Flexbox */
+    gap: 20em; /* Adds space between the items */
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+}
+.nav-links li a{
+    text-decoration: none;
+}

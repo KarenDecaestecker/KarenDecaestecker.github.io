@@ -1,0 +1,69 @@
+/** Volgende CSS gaan we ze geven **/
+.respimg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+#top-picture{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    object-position: center;
+}
+.header-line{
+    border: none;
+
+    height: 2px;
+    background-color: darkgrey;
+    margin: 20px 0;
+}
+#header-logo{
+    height: 30px;
+    margin-right: 10px;
+    align-items: center;
+
+.middle-image{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+
+}
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid lightgrey;
+}
+span{
+    margin: 0 15px;
+    text-decoration: none;
+    color: #555;
+    font-size: 1rem;
+    text-transform: uppercase; /* Make the text all caps */
+    font-weight: 500
+}
+#images{
+
+    column-gap: 50px;
+    row-gap: 50px;
+}
+
+.footer{
+
+}
+header {
+    border-bottom: 2px solid lightgray; /* Creates the light gray line */
+    margin-bottom: 20px; /* Add spacing below the line */
+}
+main {
+    margin-top: 20px; /* Pushes the content below */
+}
+h1{
+    text-align: center;
+    text-underline-position: under;
+}
