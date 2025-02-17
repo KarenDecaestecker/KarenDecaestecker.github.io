@@ -4,4 +4,4 @@ const setup = () => {
     pElement.innerHTML="Welkom!";
 
 }
-window.addEventListener("load", setup);
+window.addEventListener("click", setup);
