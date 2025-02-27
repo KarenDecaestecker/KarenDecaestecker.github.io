@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Substring Generator</title>
+ <style>
+  input {
+   width: 50px;
+   text-align: center;
+  }
+ </style>
+</head>
+<body>
+<input type="text" id="inputText" value="appelboom">
+. substring (
+<input type="number" id="startIndex" min="0" value="2"> ,
+<input type="number" id="endIndex" min="0" value="5"> )
+= <span id="output">(geen output)</span>
+
+<script>
+ document.addEventListener("DOMContentLoaded", function () {
+  function updateSubstring() {
+   let tekst = document.getElementById("inputText").value;
+   let start = parseInt(document.getElementById("startIndex").value, 10);
+   let end = parseInt(document.getElementById("endIndex").value, 10);
+
+   // Validatie om fouten te voorkomen
+   if (!isNaN(start) && !isNaN(end) && start >= 0 && end > start && start < tekst.length) {
+    document.getElementById("output").textContent = tekst.substring(start, end);
+   } else {
+    document.getElementById("output").textContent = "(geen output)";
+   }
+  }
+
+  // Event listeners voor real-time updates
+  document.getElementById("inputText").addEventListener("input", updateSubstring);
+  document.getElementById("startIndex").addEventListener("input", updateSubstring);
+  document.getElementById("endIndex").addEventListener("input", updateSubstring);
+
+  // Initialiseren van de output bij het laden van de pagina
+  updateSubstring();
+ });
+</script>
+</body>
+</html>
