@@ -10,7 +10,7 @@ function SubstringVernieuwen() {
     let invoer = document.getElementById("invoer").value;
     let start = parseInt(document.getElementById("start").value);
     let einde = parseInt(document.getElementById("einde").value);
-}}
+}
     if (!isNaN(start) && !isNaN(einde) && start >= 0 && einde > start && start < invoer.length) {
         document.getElementById("output").textContent = invoer.substring(start, einde);
     } else {
