@@ -1,7 +1,7 @@
 const vervangAlles = (Brontekst, oud, nieuw) => {
     let result=Brontekst;
     let idx=result.indexOf(oud);
-    while (idx!=-1) {
+    while (idx !== -1) {
 
         let voor=result.slice(0,idx);
         let na= result.slice(idx+oud.length, result.length);
