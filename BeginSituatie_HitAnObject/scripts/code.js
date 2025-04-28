@@ -1,4 +1,5 @@
 const setup = () => {
+
     let global = {
         IMAGE_COUNT: 5, // aantal figuren
         IMAGE_SIZE: 48, // grootte van de figuur
@@ -8,6 +9,7 @@ const setup = () => {
         score: 0, // aantal hits
         timeoutId: 0 // id van de timeout timer, zodat we die kunnen annuleren
     };
+    const setup = () => {
 
     let playField = document.getElementById("playField");
     let startButton = document.getElementById("startButton");
