@@ -1,4 +1,3 @@
-const setup = () => {
 
     let global = {
         IMAGE_COUNT: 5, // aantal figuren

@@ -1,0 +1,40 @@
+h1{
+    font-family: Arial, sans-serif;
+}
+button{
+    background-color: mediumseagreen;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    max-width: 1300px;
+
+}
+input{
+    margin-bottom: 10px;
+    padding: 8px;
+
+}
+.invoer{
+    display: flex;
+    flex-direction: column;
+    max-width: 1300px;
+}
+.grote{
+   margin: 200px;
+}
+h5{
+
+}
+.card{
+    margin: 50px;
+}
+.g-card {background-color: cornflowerblue}
+.y-card {background-color: lightcoral}
+.x-card {background-color: lightblue}
+.i-card {background-color: mediumpurple}
+
+.card .btn {
+    background-color: black;
+    color: white;
+}
